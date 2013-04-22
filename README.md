@@ -1,4 +1,0 @@
-nyist
-=====
-
-acm.nyist.net
