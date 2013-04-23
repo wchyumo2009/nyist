@@ -20,8 +20,8 @@ void dfs (int i, int cnt)
 		ans = max (ans, cnt);
 		return ;
 	}
-	if (ans == avg || cnt + sum[i] <= ans)return ;	//¼ôÖ¦
-	if (cnt + weight[i] <= avg)dfs (i-1, cnt+weight[i]);	//¼ôÖ¦
+	if (ans == avg || cnt + sum[i] <= ans)return ;//¼ôÖ¦
+	if (cnt + weight[i] <= avg)dfs (i-1, cnt+weight[i]);//¼ôÖ¦
 	dfs (i-1, cnt);
 }
 
