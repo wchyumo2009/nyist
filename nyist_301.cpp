@@ -19,10 +19,10 @@ long long A[ML][ML], E[ML][ML], tm[ML][ML];
 long long t, n, f1, f2;
 
 /*****************************************************************************
- ** Funtion name:	setE
+ ** Funtion name:setE
  ** Parameter:	e[][]	--type long long
- ** Description:	it is used to set e as an identity matrix
- ** Return:		NULL
+ ** Description:it is used to set e as an identity matrix
+ ** Return:	NULL
  *****************************************************************************/
 
 void setE(long long e[ML][ML])
@@ -42,13 +42,13 @@ void init()
 }
 
 /*****************************************************************************
- ** Funtion name:	multiplyMatrix
+ ** Funtion name:multiplyMatrix
  ** Parameter:	a[][], b[][]	--type: long long, long long
- ** Description:	this function is used to calculate the result of one given 
- **			two-dimensional matrix multiply by other two-dimensional 
- **			matrix, then the result is stored in the second parameter 
- **			b;
- ** Return:		NULL
+ ** Description:this function is used to calculate the result of one given 
+ **		two-dimensional matrix multiply by other two-dimensional 
+ **		matrix, then the result is stored in the second parameter 
+ **		b;
+ ** Return:	NULL
  *****************************************************************************/
 
 void multiplyMatrix(long long a[ML][ML], long long b[ML][ML])
@@ -70,14 +70,14 @@ void multiplyMatrix(long long a[ML][ML], long long b[ML][ML])
 }
 
 /*****************************************************************************
- ** Function name:	fun
- ** Parameter:		none
- ** Description:	this function used a fast method named two power matrix
- **			multiplication to calculate power(A, n) where A is a matrix
- **			of m by m;
- **			the recursion is f(n)=a*f(n-2)+b*f(n-1)+c, so the returned
- **			value is f(n);
- ** return:		long long
+ ** Function name:fun
+ ** Parameter:	none
+ ** Description:this function used a fast method named two power matrix
+ **		multiplication to calculate power(A, n) where A is a matrix
+ **		of m by m;
+ **		the recursion is f(n)=a*f(n-2)+b*f(n-1)+c, so the returned
+ **		value is f(n);
+ ** return:	long long
  *****************************************************************************/
 
 long long fun()
